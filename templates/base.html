@@ -46,7 +46,7 @@
         <div class="container">
           <form action="{%url 'search'%}" class="find-location" method="post">
             {% csrf_token%}
-            <input type="text" name="city" placeholder="Enter your city name..." required>
+            <input type="text" name="city" placeholder="Escreva o nome da sua cidade..." required>
             <input type="submit" value="Find">
           </form>
 
